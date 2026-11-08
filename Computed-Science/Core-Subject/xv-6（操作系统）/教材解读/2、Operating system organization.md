@@ -1,0 +1,33 @@
+### 1 Abstracting physical resources
+
+为了实现强隔离，禁止应用程序直接访问敏感的硬件资源，**而将资源抽象为服务是很有帮助的（**Unix**核心思想）**。例如，Unix应用程序只通过文件系统的`open`、`read`、`write`和`close`系统调用与文件系统进行交互，而不是直接读写磁盘。这为应用程序带来了路径名的便利，而且它允许操作系统（作为接口的实现者）管理磁盘。
+
+### 2 User mode, supervisor mode, and system calls
+
+CPU提供了强隔离的硬件支持。例如，**RISC-V有三种模式，CPU可以执行****指令****：机器模式、监督者（supervisor）模式和用户模式**。在机器模式下执行的指令具有完全的权限，一个CPU在机器模式下启动。机器模式主要用于配置计算机。Xv6会在机器模式下执行几条指令，然后转为监督者模式。
+
+### 3 Kernel organization
+
+一个关键的设计问题是操作系统的哪一部分应该在监督者模式下运行。
+
+宏内核（xv-6）**：是整个****操作系统****驻留在内核中，这样所有系统调用的实现都在监督者模式下运行。**
+
+优点： 通信开销较低，内部模块协作效率高，性能通常更容易优化。
+
+缺点： 内核组件共享特权地址空间，一个设备驱动中的严重错误可能导致整个操作系统崩溃。
+
+![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=NDUyNGZiZDg4MmI4N2NjODIyOWY1MjUxYmU3NTM0YjNfU1JtZFU0Y0pYZk51YVRBVjBybTdYQVZpWWpKSTV5WHRfVG9rZW46RHRuWWJFSjA3b05Zdmd4Y2lpUGNyc0NjbkFlXzE3OTQxMjU5MjI6MTc5NDEyOTUyMl9WNA&add_watermark=true&scene_type=CCM)
+
+微内核：是内核只负责最基础的机制，其他操作系统服务尽可能交给用户态进程实现。
+
+优点： 故障隔离更好，某个驱动崩溃时有机会单独重启；内核可信计算基较小，也更方便进行形式化验证。
+
+缺点： 不同服务之间需要 IPC，可能涉及上下文切换、权限检查与数据传递，增加性能和系统设计复杂度。
+
+![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=NjYwYmU2YmE5YWU1NDcyYjg3MzhiNDc0OTIyY2YwYmFfTFc3eWtDbktLYWNDSWtlM0lKVzVRYnp1Y25xaEZHbnJfVG9rZW46RDZ0ZmIydVF4b0JxaW54eUFod2NrZ3dKbmV2XzE3OTQxMjU5MjI6MTc5NDEyOTUyMl9WNA&add_watermark=true&scene_type=CCM)
+
+### 4 Code: xv6 organization
+
+xv-6内代码集中在 `/kernel` 文件夹下
+
+![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=NGU2Yjc3ZjE1NDNmMjBmYWEyNjc2ODQzNDg3NjM5OGJfbDY0SGhKdUxraVRPZ0s5aUxyNGw4dVNKOE5iUzJVUGtfVG9rZW46VDlqcWJ3WlJKb3ExNnR4ek1sR2NrUldYbjdjXzE3OTQxMjU5MjI6MTc5NDEyOTUyMl9WNA&add_watermark=true&scene_type=CCM)
