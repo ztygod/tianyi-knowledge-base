@@ -1,0 +1,15 @@
+/* 阅读模式：图片居中 */
+.markdown-preview-view img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 实时预览模式：图片居中 */
+.markdown-source-view.mod-cm6 .cm-content .image-embed {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

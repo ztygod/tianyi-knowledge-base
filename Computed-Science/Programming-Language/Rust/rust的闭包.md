@@ -34,7 +34,7 @@ fn main() {
 
 例如：
 
-```Plain
+```rust
 fn main() {
     let name = String::from("Rust");
 
@@ -65,7 +65,6 @@ fn main() {
     println!("{}", count); // 2
 }
 ```
-
 这里闭包需要修改 `count`，因此会通过可变借用捕获它。
 
 一句话总结：Rust 编译器会根据闭包内部对外部变量的使用方式，决定如何捕获变量。

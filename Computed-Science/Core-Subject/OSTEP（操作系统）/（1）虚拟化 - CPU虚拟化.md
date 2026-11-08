@@ -77,7 +77,7 @@ Process
 
 进程状态的转换：
 
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=NTkwNDRiMWQ2MzQ5ZmEwYTQ0NWJhNGE4ZmNlOWMzZTlfbThiYTlzWm52YWZZVWw3OTRaeWxBUU55TXNsY2NISWVfVG9rZW46WFc3dmJRblk5b1BRbGh4NnQyU2N2dzY2bmVkXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108205422.png|534]]
 
 #### **进程数据结构**
 
@@ -377,20 +377,17 @@ _**最终的答案很简单：时钟中断（timer interrupt）。时钟设备�
 先进先出（FIFO）也被称为先到先服务，顾名思义没有任何理解的困难。问题也很明显：一些耗时较少的潜在资源消费者被排在重量级的资源消费者之后，导致护航效应。
 
 A先运行100s，B或C才有机会运行。因此，系统的平均周转时间是比较高的：令人不快的110s（（100 + 110 + 120）/ 3 = 110）
-
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjUxNzc2NzlhYjI4MzFkMDVlMjk1MGI2OTQ4MjQ0NmFfNVFLTEVuWTdlR1VTaE00bmhIOTl2cVhnQTV0Q0lTQ3ZfVG9rZW46VG5yRGJwU3Fsb2Viem54MU93VGNySU1QbnFmXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108210245.png|588]]
 
 #### 最短任务优先（SJF）
 
 一个很简单的策略解决了这个问题：先运行最短的任务，然后是次短的任务，如此下去。仅通过在A之前运行B和C，SJF将平均周转时间从110s降低到50s（（10 + 20 + 120）/3 = 50）。
-
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=MWUzZDY2NzVkOTUyZTA1YzM2ZTVlYzJlYTY1Njk5M2RfWlhkcko3SWJrdm9KMUE5MXFmcnl6czllcGFKcWxvaXdfVG9rZW46Q2FQT2I3VWZVb0VwRmF4bnpHamNHUWFEbk1oXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108210313.png|598]]
 
 #### 最短完成时间优先（STCF）
 
 现在又有一个很明显的问题了，如果ABC不是在同一时间到达呢：假设A在t = 0时到达，且需要运行100s。而B和C在t = 10到达，且各需要运行10s。用纯SJF，我们可以一下调度。
-
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=NTRlMmUxNjk4NzE1ZTkwNGRmNjllZWNkYTkzMmVmMDZfMDg0aWxtRDRtcUpkVUV6Z3J6RmhJSEFpdzNtVExWQVBfVG9rZW46UmU0OGJ6VHV2bzdYNlJ4UUw1d2M4aWx2bmpiXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108210343.png|627]]
 
 即使B和C在A之后不久到达，它们仍然被迫等到A完成，从而遭遇同样的护航问题。这3项工作的平均周转时间为103.33s，即（100+（110−10）+（120−10））/3。
 
@@ -414,11 +411,11 @@ A先运行100s，B或C才有机会运行。因此，系统的平均周转时间�
 
 对比：
 
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=YWMxNjBlZDFlYzk4MWYzMzk1OTM0NTc5NGFlOTI4MDZfb1dNdEJyTVpzQmxmNzVTZkg2amo4c2VSbXNNcG0zamxfVG9rZW46RmFCSmJsaGthbzU2RXF4UlRZT2NaQUpEbktjXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108210413.png|384]]
 
 后：
 
-![](https://hcnz58qdrv4l.feishu.cn/space/api/box/stream/download/asynccode/?code=MmU3MGVjMTlhMzA2ZThjMmNjNzVjNzAzZjQ4Njg3M2VfaUZuZkl6U3JHVFlHSUNNOWg4OGNyeGN4RThiQWNNbG9fVG9rZW46TnFnMWJ2OUhvb2dxRFZ4bmlsM2NDUHl0bklnXzE3OTQxMjY1OTk6MTc5NDEzMDE5OV9WNA&add_watermark=true&scene_type=CCM)
+![[Pasted image 20261108210444.png|396]]
 
 #### 多级反馈队列（Multi-level Feedback Queue，MLFQ）
 

@@ -3,6 +3,7 @@
   "accentColor": "",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
-    "headings"
+    "headings",
+    "image-center"
   ]
 }
