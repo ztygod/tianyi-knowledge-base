@@ -3,5 +3,7 @@
   "templater-obsidian",
   "obsidian-git",
   "obsidian-linter",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]
