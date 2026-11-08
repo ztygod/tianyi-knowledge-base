@@ -1,0 +1,76 @@
+.gitignore
+  h_26f16717d2307e 1-15
+.obsidian/app.json
+  h_26f16717d2307e 1
+.obsidian/appearance.json
+  h_26f16717d2307e 1
+.obsidian/community-plugins.json
+  h_26f16717d2307e 1-7
+.obsidian/core-plugins.json
+  h_26f16717d2307e 1-32
+.obsidian/graph.json
+  h_26f16717d2307e 1-22
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+  h_26f16717d2307e 1-1118
+.obsidian/plugins/obsidian-excalidraw-plugin/main.js
+  h_26f16717d2307e 1-37
+.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json
+  h_26f16717d2307e 1-12
+.obsidian/plugins/obsidian-excalidraw-plugin/styles.css
+  h_26f16717d2307e 1
+.obsidian/plugins/obsidian-git/data.json
+  h_26f16717d2307e 1-75
+.obsidian/plugins/obsidian-git/main.js
+  h_26f16717d2307e 1-415
+.obsidian/plugins/obsidian-git/manifest.json
+  h_26f16717d2307e 1-11
+.obsidian/plugins/obsidian-git/styles.css
+  h_26f16717d2307e 1-937
+.obsidian/plugins/obsidian-linter/data.json
+  h_26f16717d2307e 1-314
+.obsidian/plugins/obsidian-linter/main.js
+  h_26f16717d2307e 1-399
+.obsidian/plugins/obsidian-linter/manifest.json
+  h_26f16717d2307e 1-11
+.obsidian/plugins/obsidian-linter/styles.css
+  h_26f16717d2307e 1
+.obsidian/plugins/templater-obsidian/main.js
+  h_26f16717d2307e 1-60
+.obsidian/plugins/templater-obsidian/manifest.json
+  h_26f16717d2307e 1-17
+.obsidian/plugins/templater-obsidian/styles.css
+  h_26f16717d2307e 1-175
+.obsidian/plugins/url-into-selection/main.js
+  h_26f16717d2307e 1-10
+.obsidian/plugins/url-into-selection/manifest.json
+  h_26f16717d2307e 1-8
+"Computed-Science/Core-Subject/OSTEP（操作系统）/（1）虚拟化 - CPU虚拟化.md"
+  h_26f16717d2307e 1-530
+"Computed-Science/Core-Subject/OSTEP（操作系统）/（2）虚拟化 - 内存虚拟化.md"
+  h_26f16717d2307e 1-346
+Computed-Science/Core-Subject/OSTEP（操作系统）/（3）并发.md
+  h_26f16717d2307e 1-1275
+Computed-Science/Core-Subject/OSTEP（操作系统）/（4）持久化.md
+  h_26f16717d2307e 1-534
+"Computed-Science/Core-Subject/xv-6（操作系统）/教材解读/1、Operating system interfaces.md"
+  h_26f16717d2307e 1-80
+"Computed-Science/Core-Subject/xv-6（操作系统）/教材解读/2、Operating system organization.md"
+  h_26f16717d2307e 1-33
+Computed-Science/Core-Subject/xv-6（操作系统）/源码阅读/0、项目启动与基本调试方法.md
+  h_26f16717d2307e 1-113
+"Computed-Science/Core-Subject/xv-6（操作系统）/源码阅读/1、 xv-6启动与初始化.md"
+  h_26f16717d2307e 1-11
+Daily-Record/2026/2026-11-8.md
+  h_26f16717d2307e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b79801e061f39419f050fc1610c672adfe4c3367",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
