@@ -1,0 +1,46 @@
+.obsidian/appearance.json
+  h_26f16717d2307e 1-8
+.obsidian/community-plugins.json
+  h_26f16717d2307e 6-8
+.obsidian/graph.json
+  h_26f16717d2307e 20
+.obsidian/plugins/obsidian-minimal-settings/data.json
+  h_26f16717d2307e 1-31
+.obsidian/plugins/obsidian-minimal-settings/main.js
+  h_26f16717d2307e 1-8
+.obsidian/plugins/obsidian-minimal-settings/manifest.json
+  h_26f16717d2307e 1-11
+.obsidian/plugins/obsidian-minimal-settings/styles.css
+  h_26f16717d2307e 1-3
+.obsidian/plugins/obsidian-style-settings/data.json
+  h_26f16717d2307e 1-35
+.obsidian/plugins/obsidian-style-settings/main.js
+  h_26f16717d2307e 1-165
+.obsidian/plugins/obsidian-style-settings/manifest.json
+  h_26f16717d2307e 1-10
+.obsidian/plugins/obsidian-style-settings/styles.css
+  h_26f16717d2307e 1-243
+.obsidian/snippets/headings.css
+  h_26f16717d2307e 1-21
+.obsidian/themes/Minimal/manifest.json
+  h_26f16717d2307e 1-8
+.obsidian/themes/Minimal/theme.css
+  h_26f16717d2307e 1-8750
+Computed-Science/Core-Subject/OSTEP（操作系统）/（4）持久化.md
+  h_26f16717d2307e 37-40
+"Computed-Science/Core-Subject/xv-6（操作系统）/教材解读/1、Operating system interfaces.md"
+  h_26f16717d2307e 1,3,8,62,78
+"Computed-Science/Tools/Obsdian 快捷键与高级用法.md"
+  h_26f16717d2307e 1-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c0cfe43b05f9b5d40e3a482010bb10589b2e8d3f",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
