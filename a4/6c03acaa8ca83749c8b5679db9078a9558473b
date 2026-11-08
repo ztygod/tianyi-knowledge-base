@@ -1,0 +1,42 @@
+.obsidian/app.json
+  h_26f16717d2307e 1-4
+.obsidian/appearance.json
+  h_26f16717d2307e 6-7
+.obsidian/graph.json
+  h_26f16717d2307e 20
+.obsidian/snippets/image-center.css
+  h_26f16717d2307e 1-15
+"Computed-Science/Core-Subject/OSTEP（操作系统）/（1）虚拟化 - CPU虚拟化.md"
+  h_26f16717d2307e 80,380,385,390,414,418
+"Computed-Science/Core-Subject/OSTEP（操作系统）/（2）虚拟化 - 内存虚拟化.md"
+  h_26f16717d2307e 14,86,197,201,205,222
+Computed-Science/Core-Subject/OSTEP（操作系统）/（3）并发.md
+  h_26f16717d2307e 245,345,409,1256
+Computed-Science/Core-Subject/OSTEP（操作系统）/（4）持久化.md
+  h_26f16717d2307e 37,50,102,114,146,177,237,244,253,283,286,295,363,378,401,428,459
+"Computed-Science/Core-Subject/xv-6（操作系统）/教材解读/2、Operating system organization.md"
+  h_26f16717d2307e 19,26,32
+"Computed-Science/Core-Subject/xv-6（操作系统）/源码阅读/1、 xv-6启动与初始化.md"
+  h_26f16717d2307e 11
+Computed-Science/Programming-Language/Rust/rust的Path.md
+  h_26f16717d2307e 1-137
+Computed-Science/Programming-Language/Rust/rust的collect.md
+  h_26f16717d2307e 1-229
+Computed-Science/Programming-Language/Rust/rust的模块化.md
+  h_26f16717d2307e 1-345
+Computed-Science/Programming-Language/Rust/rust的生命周期.md
+  h_26f16717d2307e 1-261
+Computed-Science/Programming-Language/Rust/rust的闭包.md
+  h_26f16717d2307e 37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a46c03acaa8ca83749c8b5679db9078a9558473b",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
