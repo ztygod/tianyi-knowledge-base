@@ -1,0 +1,44 @@
+.obsidian/community-plugins.json
+  h_26f16717d2307e 8-10
+.obsidian/plugins/table-editor-obsidian/data.json
+  h_26f16717d2307e 1-6
+.obsidian/plugins/table-editor-obsidian/main.js
+  h_26f16717d2307e 1-236
+.obsidian/plugins/table-editor-obsidian/manifest.json
+  h_26f16717d2307e 1-15
+.obsidian/plugins/table-editor-obsidian/styles.css
+  h_26f16717d2307e 1-78
+.obsidian/plugins/table-width/data.json
+  h_26f16717d2307e 1-75
+.obsidian/plugins/table-width/main.js
+  h_26f16717d2307e 1-209
+.obsidian/plugins/table-width/manifest.json
+  h_26f16717d2307e 1-10
+.obsidian/plugins/table-width/styles.css
+  h_26f16717d2307e 1-24
+"Computed-Science/Core-Subject/Crafting interpreters（编译原理）/1、大纲.md"
+  h_26f16717d2307e 1-23
+Computed-Science/Core-Subject/OSTEP（操作系统）/（4）持久化.md
+  h_26f16717d2307e 17,25
+Computed-Science/Tools/nvim常用方法大全.md
+  h_26f16717d2307e 1-156
+exercise/Makefile
+  h_26f16717d2307e 1-16
+exercise/src/main.c
+  h_26f16717d2307e 1-8
+exercise/src/rng.c
+  h_26f16717d2307e 1-22
+exercise/src/rng.h
+  h_26f16717d2307e 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "293bfc1226ab6792ac184a9a870a1b3530806545",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
