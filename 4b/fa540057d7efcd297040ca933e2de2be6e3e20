@@ -1,0 +1,20 @@
+.obsidian/plugins/table-width/data.json
+  h_26f16717d2307e 72-80
+.obsidian/plugins/templater-obsidian/main.js
+  h_26f16717d2307e 6-13,15-18,20-23,25,29,58
+.obsidian/plugins/templater-obsidian/manifest.json
+  h_26f16717d2307e 4
+Computed-Science/Tools/nvim常用方法大全.md
+  h_26f16717d2307e 49-50,127,146,158-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4bfa540057d7efcd297040ca933e2de2be6e3e20",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
