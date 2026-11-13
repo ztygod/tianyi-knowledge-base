@@ -1,0 +1,18 @@
+.obsidian/plugins/table-width/data.json
+  h_26f16717d2307e 82-88
+"Computed-Science/Core-Subject/Crafting interpreters（编译原理）/2、Scanning （扫描）.md"
+  h_26f16717d2307e 1-71
+"Computed-Science/Tools/ssh 使用方法.md"
+  h_26f16717d2307e 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d3a509bba276f2521157cd78ee185d8ce3766910",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
