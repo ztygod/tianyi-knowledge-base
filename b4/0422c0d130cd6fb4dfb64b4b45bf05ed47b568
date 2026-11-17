@@ -1,0 +1,18 @@
+.obsidian/graph.json
+  h_26f16717d2307e 20
+.obsidian/plugins/obsidian-minimal-settings/data.json
+  h_26f16717d2307e 2-3
+"Computed-Science/Tools/Obsdian 快捷键与高级用法.md"
+  h_26f16717d2307e 13,20-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b40422c0d130cd6fb4dfb64b4b45bf05ed47b568",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
