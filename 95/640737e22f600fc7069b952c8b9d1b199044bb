@@ -1,0 +1,20 @@
+Computed-Science/Core-Subject/CS106L（c++系统编程）/1、intro.md
+  h_26f16717d2307e 7,10
+"Computed-Science/Core-Subject/CS61B（算法与数据结构）/1、Intro, Hello World Java.md"
+  h_26f16717d2307e 1
+Math/MIT18.01（单变量微积分）/1、导数和变化率.md
+  h_26f16717d2307e 1-4
+Math/MIT18.01（单变量微积分）/2、极限与连续.md
+  h_26f16717d2307e 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "95640737e22f600fc7069b952c8b9d1b199044bb",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
