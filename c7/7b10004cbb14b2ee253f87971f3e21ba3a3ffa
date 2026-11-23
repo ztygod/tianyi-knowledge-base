@@ -1,0 +1,16 @@
+Math/MIT18.06（线性代数）/2、线性变换、矩阵与矩阵消元：从第一性原理理解线性代数.md
+  h_26f16717d2307e 1-882
+Math/MIT18.06（线性代数）/3、矩阵乘法与逆矩阵.md
+  h_26f16717d2307e 1-337
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c77b10004cbb14b2ee253f87971f3e21ba3a3ffa",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
