@@ -1,0 +1,18 @@
+Math/MIT18.01（单变量微积分）/3、求导四则运算及三角函数导数.md
+  h_26f16717d2307e 1-4
+Math/MIT18.01（单变量微积分）/4、链式法则与高阶导数.md
+  h_26f16717d2307e 1
+Math/MIT18.06（线性代数）/0、线性代数究竟在解决什么问题？.md
+  h_26f16717d2307e 1-529
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f00b39ddaf7927b34fd7e0a2a19a4d50abbb6216",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
