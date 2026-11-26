@@ -1,0 +1,30 @@
+.obsidian/app.json
+  h_26f16717d2307e 3-4
+.obsidian/plugins/table-width/data.json
+  h_26f16717d2307e 113-123
+Computed-Science/Core-Subject/CS106L（c++系统编程）/0、intro.md
+  h_26f16717d2307e 8
+"Computed-Science/Core-Subject/CS106L（c++系统编程）/1、C++ 程序基础.md"
+  h_26f16717d2307e 1-28
+"Computed-Science/Core-Subject/MIT 6.092（Java）/3、Loops and Arrays.md"
+  h_26f16717d2307e 1-202
+"Computed-Science/Core-Subject/MIT 6.092（Java）/4、Classes and Objects.md"
+  h_26f16717d2307e 2,4,6-9,11-14,16-18,20-22,24-25,28,30,32-35,37-40,42-46,48,50-56,58,60,62-64,66-68,70,72,74,76,78-83,85-86,88-89
+"Computed-Science/Core-Subject/MIT 6.092（Java）/5、Encapsulation and Packages.md"
+  h_26f16717d2307e 1-177
+"Computed-Science/Core-Subject/OSTEP（操作系统）/（2）虚拟化 - 内存虚拟化.md"
+  h_26f16717d2307e 5
+Computed-Science/Core-Subject/cs61B（c++系统编程）/0、大纲.md
+  h_26f16717d2307e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f1b227b1d9053c70956e8c7d44665aac03902b05",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
