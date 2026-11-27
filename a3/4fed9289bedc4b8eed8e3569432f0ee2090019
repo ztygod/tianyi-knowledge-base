@@ -1,0 +1,16 @@
+"Computed-Science/Core-Subject/CS106L（c++系统编程）/1、C++ 程序基础.md"
+  h_26f16717d2307e 29-241
+"Computed-Science/Core-Subject/CS106L（c++系统编程）/2、Functions, Pointers and References.md"
+  h_26f16717d2307e 1-267
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a34fed9289bedc4b8eed8e3569432f0ee2090019",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
