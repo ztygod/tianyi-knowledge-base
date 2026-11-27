@@ -1,0 +1,16 @@
+"Computed-Science/Core-Subject/MIT 6.092（Java）/6、程序设计、接口与调试.md"
+  h_26f16717d2307e 1-126
+"Computed-Science/Core-Subject/MIT 6.092（Java）/7、Review、Exceptions 与 IO.md"
+  h_26f16717d2307e 1-252
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "879e1f78baa32dea52ac74609601afe9542f228e",
+  "prompts": {},
+  "humans": {
+    "h_26f16717d2307e": {
+      "author": "ztygod <2739022972@qq.com>"
+    }
+  }
+}
